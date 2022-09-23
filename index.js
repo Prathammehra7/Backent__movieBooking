@@ -5,8 +5,7 @@ const route = require("./Routes/route");
 const movie = require("./Routes/movie");
 const dbconnect = require("./Mongo/dbconfig");
 const PORT = process.env.PORT || 4000 ;
-const app = express();
-const dotenv = require('dotenv');
+const app = express();const dotenv = require('dotenv');
 dotenv.config();
 
 
